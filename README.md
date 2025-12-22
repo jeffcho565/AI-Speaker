@@ -69,7 +69,11 @@ py -3.12 -m venv myenv
 ### Step 2: Install Python Packages
 
 ```powershell
-pip install SpeechRecognition gTTS playsound==1.2.2 pyaudio pygame ollama
+# Recommended: install pinned dependencies from requirements.txt
+pip install -r requirements.txt
+
+# (Alternative) One-liner install
+# pip install SpeechRecognition gTTS playsound==1.2.2 pyaudio pygame ollama
 ```
 
 ### Step 3: Install Ollama

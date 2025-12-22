@@ -1,0 +1,13 @@
+# Core voice assistant dependencies
+SpeechRecognition==3.10.4
+PyAudio==0.2.14
+gTTS==2.5.1
+playsound==1.2.2
+pygame==2.6.0
+
+# Local LLM client (Ollama)
+ollama==0.6.1
+
+# Networking + compatibility
+requests==2.32.3
+typing_extensions==4.14.0
